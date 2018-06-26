@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>期末大作业</title>
+    <style>
+      body {
+        font-family: Helvetica;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .buttons-container{
+        width:520px;
+        margin-bottom: 15px;
+      }
+      .button{
+        float:left;
+        margin-left: 10px;
+        font-weight: lighter;
+        cursor: pointer;
+      }
+      .selected{
+        font-weight: bold;
+      }
+      .bar {
+        fill: DarkSlateBlue;
+      }
+
+      .axis line{
+        fill: none;
+        stroke: #000;
+      }
+      .axis text {
+        font-size: 15px;
+      }
+      .play-button {
+        margin-left: 10px;
+        margin-bottom: 15px;
+        font-style: italic;
+        cursor: pointer;
+        color: gray;
+      }
+      .play-button:hover {
+        color: #20a0ff;
+      }
+      .clickable {
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="./js/d3.js"></script>
+    <script type="text/javascript" src="./js/index.js" ></script>
+</body>
+</html>
